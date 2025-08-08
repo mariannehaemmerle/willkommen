@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Finde deinen aktuellen Zustand</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2.8rem;
+      text-align: center;
+      color: #ffcc00;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 300px;
+    }
+    a.button {
+      background-color: #ff6600;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    a.button:hover {
+      background-color: #e65c00;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Wie geht es dir wirklich?</h1>
+    <p>Finde heraus, ob du im Stress bist oder im Überlebensmodus steckst.<br>Mach den Test – einfach & anonym.</p>
 
+    <div class="button-container">
+      <a class="button" href="https://mariannehaemmerle.github.io/stress-quiz/">🧠 Stress-Check starten</a>
+      <a class="button" href="https://mariannehaemmerle.github.io/ueberlebensmodus/">🔥 Überlebensmodus-Check starten</a>
+    </div>
+  </div>
+</body>
+</html>
