@@ -1,0 +1,10 @@
+<body>
+  <div class="overlay">
+    <h1>Wie geht es dir wirklich?</h1>
+    <p>Finde heraus, ob du im Stress bist oder im Überlebensmodus steckst.</p>
+    <div class="button-container">
+      <a class="button" href="https://mariannehaemmerle.github.io/Stress-Quiz/">🧠 Stress-Check starten</a>
+      <a class="button" href="https://mariannehaemmerle.github.io/ueberlebensmodus/">🔥 Überlebensmodus-Check starten</a>
+    </div>
+  </div>
+</body>
